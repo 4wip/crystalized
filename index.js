@@ -13,7 +13,6 @@ client.on('ready', async () => {
     .addButton('', 'URL')
     .addButton('', 'URL')
     .setPlatform('desktop')
-    .setStartTimestamp(Date.now())
   client.user.setPresence({ activities: [status] });
 })
 
