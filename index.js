@@ -7,7 +7,6 @@ client.on('ready', async () => {
     const status = new RichPresence(client)
     .setApplicationId('ID APP')
     .setName('')
-    .setDetails('DESC')
     .setAssetsLargeImage("URL") 
     .setAssetsLargeText('Texte quand on survole l'image')
     .addButton('', 'URL')
