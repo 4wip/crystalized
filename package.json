@@ -1,0 +1,13 @@
+{
+  "name": "rs-selfbot",
+  "version": "1.0.0",
+  "description": "Un selfbot simple & efficace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "4wip",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.7.0"
+  }
+}
