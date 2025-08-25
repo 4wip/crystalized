@@ -17,7 +17,7 @@ client.on('ready', async () => {
     .setState('‎‎  ')
     .setAssetsLargeImage(getExtendURL[0].external_asset_path) 
   //  .setAssetsLargeText('?')
-    .addButton('AniList', 'https://anilist.co/user/Pistachee')
+    //.addButton('AniList', 'https://anilist.co/user/Pistachee')
     .setPlatform('desktop')
   client.user.setPresence({ activities: [status] });
 
